@@ -87,7 +87,7 @@ fun Timer() {
                             modifier = Modifier.wrapContentSize()
                         )
                         if (index < laps.value.size - 1) {
-                            Divider(modifier = Modifier.padding(horizontal = 150.dp),color = divider)
+                            Box(modifier = Modifier.height(0.5.dp).width(80.dp),backgroundColor = divider)
                         }
                     }
                 }
